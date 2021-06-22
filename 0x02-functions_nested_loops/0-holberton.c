@@ -1,10 +1,13 @@
 #include "holberton.h"
 
 /**
- * main - Prints "Holberton" followed by a new line.
+ * main - Prints Holberton
+ * @void: Empty parameter list for main.
  *
- * Return: Always 0.
- */
+ * Description: Prints Holberton w/out stdio
+ *
+ * Return: 0 for success
+*/
 int main(void)
 {
 	_putchar('H');
@@ -17,6 +20,5 @@ int main(void)
 	_putchar('o');
 	_putchar('n');
 	_putchar('\n');
-
 	return (0);
 }
